@@ -51,7 +51,14 @@ Run the `python predict_model.py` script to:
 ## Results
 The trained model achieved high accuracy in identifying sentiments in tweets. The use of TF-IDF and dropout layers helped prevent overfitting and improved generalization.
 
-Future Work
-	•	Experiment with advanced models like BERT for improved accuracy.
-	•	Enhance preprocessing for more robust handling of noisy text.
+## Future Work
+- Experiment with advanced models like **BERT** or **GPT-based transformers** for improved accuracy and better contextual understanding.  
+- Incorporate **data augmentation** techniques to enhance the diversity and robustness of the training data.  
+- Add support for **multilingual sentiment analysis** to analyze tweets in multiple languages.  
+- Optimize the preprocessing pipeline for better handling of noisy, sarcastic, or mixed-emotion text.  
+- Develop a **web interface or API** for seamless integration and real-time sentiment prediction.  
+- Explore **unsupervised learning** methods to classify new or unlabelled tweets dynamically.  
+- Integrate visualizations like **word clouds** and **sentiment trends over time** for enhanced reporting.  
+- Evaluate and compare performance with different vectorization techniques like **word embeddings (Word2Vec, GloVe)**.  
+
 
